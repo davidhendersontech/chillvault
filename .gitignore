@@ -1,0 +1,32 @@
+# Virtual environment
+bin/
+lib/
+lib64
+include/
+share/
+pyvenv.cfg
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Large media/data files
+audios/
+transcripts/
+
+# Secrets
+.env
+.env.local
+
+# Logs & outputs (from bulk processor)
+logs/
+themes_output/
+retry_manifest.json
+
+# Next.js
+.next/
+node_modules/
+
+# OS
+.DS_Store
